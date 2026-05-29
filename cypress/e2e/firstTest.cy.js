@@ -1,6 +1,5 @@
 describe("My First Test", () => {
-  it("Visits Google", () => {
-    cy.visit("https://www.google.com");
+  it("Visits Youtube", () => {
     cy.visit("https://www.youtube.com");
   });
 });
